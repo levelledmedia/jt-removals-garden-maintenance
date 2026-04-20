@@ -280,6 +280,13 @@ button {
   flex-wrap: wrap;
 }
 
+.phone-col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+}
+
 .phone-secondary {
   display: inline-flex;
   align-items: center;
@@ -288,7 +295,6 @@ button {
   font-weight: 500;
   color: #555;
   text-decoration: none;
-  margin-top: var(--sp-1);
   transition: color 0.2s;
 }
 .phone-secondary:hover {
