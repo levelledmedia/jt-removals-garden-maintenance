@@ -283,8 +283,13 @@ button {
 .header__contact-stack {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
   align-items: flex-start;
+}
+.header__contact-stack .btn--sm {
+  height: auto;
+  padding: 4px 12px;
+  font-size: 13px;
 }
 
 .btn--sm {
