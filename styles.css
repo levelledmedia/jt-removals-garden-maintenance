@@ -280,52 +280,11 @@ button {
   flex-wrap: wrap;
 }
 
-.phone-col {
+.header__contact-stack {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  align-items: flex-start;
-}
-
-.phone-secondary {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #555;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-.phone-secondary:hover {
-  color: var(--primary);
-}
-.phone-secondary--light {
-  color: rgba(255, 255, 255, 0.75);
-}
-.phone-secondary--light:hover {
-  color: #fff;
-}
-
-.header__phones {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 3px;
-}
-.header__call-alt {
-  font-size: 0.78rem;
-  color: #444;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
   gap: 4px;
-  font-weight: 500;
-  transition: color 0.2s;
-  padding-right: 2px;
-}
-.header__call-alt:hover {
-  color: var(--primary);
+  align-items: flex-start;
 }
 
 .btn--sm {
@@ -2279,10 +2238,6 @@ body.tall-header .header__nav-bar {
   }
 
   .header__call-btn {
-    display: none;
-  }
-
-  .header__call-alt {
     display: none;
   }
 
