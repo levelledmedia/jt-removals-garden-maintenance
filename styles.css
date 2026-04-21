@@ -280,16 +280,6 @@ button {
   flex-wrap: wrap;
 }
 
-.header__contact-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: flex-start;
-}
-.header__contact-stack .btn--sm {
-  height: auto;
-  padding: 4px 12px;
-}
 
 .btn--sm {
   height: 48px;
